@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Tests / linters
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated plots (regenerate with experiments/)
+experiments/figures/
+*.png
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
